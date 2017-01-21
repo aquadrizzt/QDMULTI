@@ -106,7 +106,7 @@ OUTER_SPRINT qd_multiclass#version "0.2"
 			APPEND ~CLABRN01.2da~ ~QD_MULTI     AP_QD_MCR01 AP_QD_MCR02 AP_QD_MCR03 AP_QD_MCR04 AP_QD_MCR05 AP_QD_MCR06 AP_QD_MCR07 AP_QD_MCR08 AP_QD_MCR09 AP_QD_MCR10 AP_QD_MCR11 AP_QD_MCR12 AP_QD_MCR13 AP_QD_MCR14 AP_QD_MCR15 AP_QD_MCR16 AP_QD_MCR17 AP_QD_MCR18 AP_QD_MCR19 AP_QD_MCR20 AP_QD_MCR21 AP_QD_MCR22 AP_QD_MCR23 AP_QD_MCR24 AP_QD_MCR25 AP_QD_MCR26 AP_QD_MCR27 AP_QD_MCR28 AP_QD_MCR29 AP_QD_MCR30 AP_QD_MCR31 AP_QD_MCR32 AP_QD_MCR33 AP_QD_MCR34 AP_QD_MCR35 AP_QD_MCR36 AP_QD_MCR37 AP_QD_MCR38 AP_QD_MCR39 AP_QD_MCR40 AP_QD_MCR41 AP_QD_MCR42 AP_QD_MCR43 AP_QD_MCR44 AP_QD_MCR45 AP_QD_MCR46 AP_QD_MCR47 AP_QD_MCR48 AP_QD_MCR49 AP_QD_MCR50~ //cleric
 		END
 		
-<<<<<<<< qd_blank_clab_inline.2da
+<<<<<<<< qd_blank_k_x_x_inline.2da
 2DA V1.0
 ****
 
@@ -114,11 +114,11 @@ OUTER_SPRINT qd_multiclass#version "0.2"
 1		0
 >>>>>>>>
 
-		//making the multiclass clabs
+		//making the multiclass K_X_X
 		ACTION_FOR_EACH mc IN ~FM~ ~FC~ ~FT~ ~FMT~ ~MT~ ~CM~ ~CT~ ~FD~ ~FMC~ ~CR~ BEGIN 
 			ACTION_FOR_EACH race IN ~H~ ~D~ ~G~ ~E~ ~HE~ ~HL~ ~HO~ BEGIN 
 				ACTION_IF NOT FILE_EXISTS_IN_GAME ~K_%mc%_%race%.2da~ BEGIN
-					COPY ~qd_blank_clab_inline.2da~ ~override/K_%mc%_%race%.2da~
+					COPY ~qd_blank_k_x_x_inline.2da~ ~override/K_%mc%_%race%.2da~
 				END
 			END
 		END	
