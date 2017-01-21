@@ -39,7 +39,7 @@ This library is very versatile, and can be used in a variety of scenarios. Some 
 
 ## QDMULTI in Action
 Mods that make use of QDMULTI include: 
-* **Eldritch Magic** by Abdel_Adrian 
+* <a href="https://github.com/AbdelAdrian/Eldritch_Magic">**Eldritch Magic**</a> by Abdel_Adrian 
 * **Might and Guile** by subtledoctor 
 
 ## Permissions and Support 
