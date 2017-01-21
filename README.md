@@ -23,7 +23,7 @@ LAF qd_multiclass
       kit_name = ~kitname~ //the internal name for your kit (e.g. QDMAGUS) 
       kit_clab = ~kitclab~ //the internal name of your kit's clab file, without the .2da extension
       base_class = ~X~ // this can take 6 values: [F]ighter, [P]riest, [D]ruid, [R]anger, [M]age, [T]hief
-      mc_dir = ~your/file/structure~ // the directory containing the five files, as noted above
+      mc_dir = ~your/file/structure~ // the directory containing the three files, as noted above
 END 
 </pre>
 
