@@ -11,9 +11,13 @@ If you would like to tie your mod's multiclass kits into the qdmulti framework, 
 
 After adding these files to your mod structure, you can enable the functionality in your mod's compenents by adding the following code to your mod's installation files (either .tp2 or .tpa). 
 
+This line should be included before you use the ADD_KIT function (if you are adding a new kit). 
 <pre>
 INCLUDE ~your/folders/here/qd_multiclass.tpa~ 
+</pre> 
 
+This line should be included after you use the ADD_KIT function (if you are adding a new kit). 
+<pre>
 LAF qd_multiclass
   STR_VAR 
       kit_name = ~kitname~ //the internal name for your kit (e.g. QDMAGUS) 
