@@ -45,6 +45,7 @@ This library is very versatile, and can be used in a variety of scenarios. Some 
 Mods that make use of QDMULTI include: 
 * <a href="https://github.com/AbdelAdrian/Eldritch_Magic">**Eldritch Magic**</a> by Abdel_Adrian 
 * <a href="https://github.com/subtledoctor/Might_and_Guile">**Might and Guile**</a> by subtledoctor 
+* <a href="https://github.com/ArtemiusI/Arcane-Archer">**Arcane Archer**</a> by ArtemiusI 
 
 ## Permissions and Support 
 I am publishing QDMULTI so that other modders may make multi-class kits more reliably and efficiently. I do not require nor expect modders to contact me requesting permission to use this library. If you encounter errors while using this library, please contact me so that I may provide fixes and updates. 
