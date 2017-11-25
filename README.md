@@ -42,7 +42,8 @@ This library is very versatile, and can be used in a variety of scenarios. Some 
 * allowing a single- or multiclass character to gain the benefits of multiple kits of the same class. 
 
 ## QDMULTI in Action
-Mods that make use of QDMULTI include: 
+Mods that make use of QDMULTI include:
+* <a href="https://github.com/aquadrizzt/MonasticOrders">**Monastic Orders**</a> by aquadrizzt 
 * <a href="https://github.com/AbdelAdrian/Eldritch_Magic">**Eldritch Magic**</a> by Abdel_Adrian 
 * <a href="https://github.com/subtledoctor/Might_and_Guile">**Might and Guile**</a> by subtledoctor 
 * <a href="https://github.com/ArtemiusI/Arcane-Archer">**Arcane Archer**</a> by ArtemiusI 
