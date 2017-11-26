@@ -7,9 +7,7 @@ Beamdog released the Enhanced Infinity Engine (v2.0) with the release of their o
 This library fixes that problem, and enables multiclass kits to both appear properly in character creation and apply the appropriate bonuses during character advancement. 
 
 ## Usage
-If you would like to tie your mod's multiclass kits into the qdmulti framework, then you first need to download the latest version of qdmulti and include it somewhere in your mod's installation files. The .tpa file (qd_multiclass.tpa) can be kept anywhere within the installation files, but the other three files **must be kept in the same directory.** 
-
-After adding these files to your mod structure, you can enable the functionality in your mod's compenents by adding the following code to your mod's installation files (either .tp2 or .tpa). 
+If you would like to tie your mod's multiclass kits into the qdmulti framework, then you first need to download the latest version of qdmulti and include it somewhere in your mod's installation files. After adding this file to your mod structure, you can enable the functionality in your mod's compenents by adding the following code to your mod's installation files (either .tp2 or .tpa). 
 
 This line should be included before you use the ADD_KIT function (if you are adding a new kit). 
 <pre>
@@ -23,7 +21,6 @@ LAF qd_multiclass
       kit_name = ~kitname~ //the internal name for your kit (e.g. QDMAGUS) 
       kit_clab = ~kitclab~ //the internal name of your kit's clab file, without the .2da extension
       base_class = ~X~ // this can take 6 values: [F]ighter, [P]riest, [D]ruid, [R]anger, [M]age, [T]hief
-      mc_dir = ~your/file/structure~ // the directory containing the three files, as noted above
 END 
 </pre>
 
