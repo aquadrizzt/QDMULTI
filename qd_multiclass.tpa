@@ -269,26 +269,21 @@ ABILITY1    ****        ****        ****        ****        ****        ****    
 			//making the empty multiclass spells and effects	
 		
 		CREATE EFF ~QD_MC_AP~ 
-		CREATE EFF ~QD_MC_GA~ 
-		
-		CREATE SPL ~QD_MC_01~
-		
-		COPY_EXISTING ~QD_MC_01.spl~ ~override~ 
-			LPF ADD_SPELL_HEADER END   
-			
-		COPY_EXISTING ~QD_MC_AP.eff~ ~override~ 
 			WRITE_LONG   0x10 146 //cast spell
 			WRITE_LONG   0x14 2   //preset target 
 			WRITE_LONG   0x20 1   //cast instantly (ignore level) 
 			WRITE_SHORT  0x24 1   //permament until death
 			WRITE_SHORT  0x2c 100 //probability 100% 
 			
-		COPY_EXISTING ~QD_MC_GA.eff~ ~override~ 
-			WRITE_LONG   0x10 171 //cast spell
+		CREATE EFF ~QD_MC_GA~ 
+			WRITE_LONG   0x10 171 //give spell
 			WRITE_LONG   0x14 2   //preset target 
 			WRITE_SHORT  0x24 1   //permament until death
 			WRITE_SHORT  0x2c 100 //probability 100% 
 			
+		CREATE SPL ~QD_MC_01~
+			LPF ADD_SPELL_HEADER END   
+						
 		COPY_EXISTING ~QD_MC_01.SPL~ ~override/QD_MCF01.SPL~ 
 			 ~QD_MC_01.SPL~ ~override/QD_MCF02.SPL~ 
 			 ~QD_MC_01.SPL~ ~override/QD_MCF03.SPL~ 
